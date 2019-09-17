@@ -107,7 +107,7 @@ app.post('/api/trigger-push-msg', (req,res) => {
 
 app.use(express.static('public'));
 
-app.listen(8080, function () {
+app.listen(process.env.PORT || 80, function () {
     console.log('Push server start!')
 });
 
