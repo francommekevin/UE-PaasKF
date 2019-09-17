@@ -1,0 +1,24 @@
+{
+  "name": "ue-paaskf",
+  "version": "1.0.0",
+  "description": "Pour le serveur, on utilise le framework node Express, mais tout autre solution est viable",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francommekevin/UE-PaasKF.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francommekevin/UE-PaasKF/issues"
+  },
+  "homepage": "https://github.com/francommekevin/UE-PaasKF#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.0",
+    "web-push": "^3.3.5"
+  }
+}
